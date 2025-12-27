@@ -1,6 +1,6 @@
 
 
-# 1️⃣ 8-BIT ALU – SPEC 
+# 8-BIT ALU – SPEC 
 
 ### 🔹 Inputs
 
