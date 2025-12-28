@@ -31,10 +31,10 @@
 | 111 | SHIFT RIGHT |
 
 ✔ No multipliers
-
 ✔ No latches
-
 ✔ Fully combinational
+
+
 ---
 
 # ✅ STEP 1 8-BIT ALU RTL (SYNTHESIZABLE VERILOG)
@@ -120,7 +120,7 @@ You should see:
 ```bash
 alu_8bit.v
 ```
-<p align="center"><img src="./ASSETS/design_file_verify.png" width="500" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/design_file_verify.png" width="800" alt="OpenROAD banner"/></p>
 
 
 ## ✅ STEP 3 — Write the ALU Testbench (MANDATORY)
@@ -212,7 +212,7 @@ iverilog -o alu_sim rtl/alu_8bit.v tb/tb_alu_8bit.v
 
 If **no errors appear** → ✅ RTL is synthesizable.
 
-<p align="center"><img src="./ASSETS/Testbench_creation_verify.png" width="500" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/Testbench_creation_verify.png" width="800" alt="OpenROAD banner"/></p>
 
 
 ---
@@ -250,7 +250,7 @@ SUB:  10 -  20 = 246
     256 − 10 = 246
     ```
 
-  <p align="center"><img src="./ASSETS/RTL_verify_using_Tb.png" width="500" alt="OpenROAD banner"/></p>
+  <p align="center"><img src="./ASSETS/RTL_verify_using_Tb.png" width="800" alt="OpenROAD banner"/></p>
     
 
 ✅ **This is CORRECT behavior**
@@ -294,7 +294,7 @@ alu_8bit.v
 ```
 
 ---
-<p align="center"><img src="./ASSETS/openlane_folder.png" width="500" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/openlane_folder.png" width="800" alt="OpenROAD banner"/></p>
 
 
 ## ✅ STEP 3 Create `config.tcl` (CRITICAL FILE)
@@ -351,7 +351,7 @@ make mount
 
 ```
 
-<p align="center"><img src="./ASSETS/open_openlane.png" width="500" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/open_openlane.png" width="800" alt="OpenROAD banner"/></p>
 
 
 Inside the OpenLane container, run:
@@ -377,7 +377,7 @@ Warnings are OK
 
 Errors are NOT
 
-<p align="center"><img src="./ASSETS/flow_successfull.png" width="500" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/flow_successfull.png" width="800" alt="OpenROAD banner"/></p>
 
 
 Then to exit Openlane 
@@ -399,10 +399,10 @@ You can open it using:
 ```bash
 klayout alu_8bit.gds
 ```
-<p align="center"><img src="./ASSETS/ouput.png" width="500" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/ouput.png" width="800" alt="OpenROAD banner"/></p>
 
 
 ---
-<p align="center"><img src="./ASSETS/8bitlayout.png" width="500" alt="OpenROAD banner"/></p>
-<p align="center"><img src="./ASSETS/8bitlayout2.png" width="500" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/8bitlayout.png" width="800" alt="OpenROAD banner"/></p>
+<p align="center"><img src="./ASSETS/8bitlayout2.png" width="800" alt="OpenROAD banner"/></p>
 
